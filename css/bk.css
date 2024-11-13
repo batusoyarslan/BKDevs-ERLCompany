@@ -50,9 +50,10 @@
 .nav-links {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 150px;
     border-top: 1px solid #ddd;
     padding: 10px 0;
+    
 }
 
 .nav-links a {
