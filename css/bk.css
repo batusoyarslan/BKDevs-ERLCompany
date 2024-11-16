@@ -1,4 +1,6 @@
-
+*{
+    text-decoration: none;
+}
 
 .header {
     background-color: #fff;
@@ -462,3 +464,148 @@
         width: 100%;
     }
   }
+
+
+
+
+
+
+
+
+
+
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: black;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.headline {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dcdcdc;
+    border-radius: 25px;
+    overflow: hidden;
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.input-container input {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    flex: 1;
+    font-size: 16px;
+}
+.input-container button {
+    background-color: rgb(151, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 25px 25px 0;
+}
+.input-container button:hover {
+    background-color: rgb(70, 70, 70);
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    font-weight: 700;
+}
+.footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer a:hover {
+    color: #ffffff;
+}
+
+.footertext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-top: 80px;
+
+    
+}
+
+.footertext a:visited{
+   color: white;
+    
+}
+
+@media (max-width: 768px) {
+    .headline {
+      font-size: 16px;
+    }
+  
+    .input-container {
+      flex-direction: row;
+      align-items: stretch;
+      max-width: 100%;
+    }
+  
+  
+    .footer {
+      flex-wrap: wrap;
+      font-size: 16px;
+    }
+  
+    .logo-text {
+      font-size: 28px;
+    }
+  
+    .footertext {
+      flex-direction: column;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .headline {
+      font-size: 14px;
+    }
+  
+    .input-container {
+      margin-bottom: 20px;
+    }
+  
+    .logo-text {
+      font-size: 24px;
+    }
+  
+    .footer a {
+      font-size: 14px;
+    }
+  }
+  
