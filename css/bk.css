@@ -366,7 +366,6 @@
   /* Slider styles */
   .slider {
     width: 100%;
-    aspect-ratio: 16 / 9;
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
@@ -609,3 +608,14 @@
     }
   }
   
+
+
+
+@media (max-width: 768px) {
+    .slider {
+        width: 100%; 
+        overflow: hidden;
+        height: 40vh;
+    }
+
+}
