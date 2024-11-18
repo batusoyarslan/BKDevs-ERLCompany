@@ -21,3 +21,13 @@ setInterval(() => {
 }, 5000);
 
 updateActiveDot(currentIndex);
+
+
+document.querySelector('.faq-link').addEventListener('click', function(e) {
+    e.preventDefault(); // Varsayılan link davranışını engelle
+    
+    const faqSection = document.querySelector('#faq-scroll');
+    faqSection.scrollIntoView({ 
+        behavior: 'smooth' 
+    });
+});
