@@ -38,3 +38,18 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('preloader').classList.add('hidden');
     }, 2000);
 });
+
+
+
+const block = document.getElementById("block");
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      block.classList.add("animate"); // Sadece bir kez animasyon ekle
+      observer.unobserve(block); // Daha fazla gözlemleme
+    }
+  });
+});
+
+observer.observe(block);
