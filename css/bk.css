@@ -412,7 +412,7 @@
     width: 50%;
     padding: 2rem;
     color: white;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.424) 0%, rgba(0, 0, 0, 0.373) 70%, rgba(34, 33, 33, 0) 100%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.168) 0%, rgba(0, 0, 0, 0.248) 70%, rgba(34, 33, 33, 0) 100%);
     pointer-events: none;
   }
   
@@ -726,7 +726,7 @@
   .brand-logo-wrapper {
     display: flex;
     gap: 4rem;
-    animation: scroll 40s linear infinite;
+    animation: scroll 20s linear infinite;
     white-space: nowrap;
   }
   
