@@ -3281,7 +3281,6 @@ blockquote {
     grid-column-gap: 3.125rem;
     grid-row-gap: 3.125rem;
     grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr;
   }
 
   .award-content-wrapper {

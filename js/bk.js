@@ -31,3 +31,10 @@ document.querySelector('.faq-link').addEventListener('click', function(e) {
         behavior: 'smooth' 
     });
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    setTimeout(function() {
+        document.getElementById('preloader').classList.add('hidden');
+    }, 2000);
+});
